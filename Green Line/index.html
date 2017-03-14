@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Green Line | Главная</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div class="logo">
+			<h1>Green Line</h1>
+			<h2>Ваш проводник в мире туризма</h2>
+		</div>
+		<div id="menu" class="semiopacity">
+			<ul>
+				<li class="active"><a href="index.html">Главная</a></li>
+				<li><a href="#">Туры</a></li>
+				<li><a href="services.html">Услуги</a></li>
+				<li><a href="about.html">О компании</a></li>
+				<li><a href="feedback.php">Обратная связь</a></li>
+			</ul>		
+		</div>			
+		
+		<br><br>
+
+		<div class="carousel-wrapper">
+			<input type="radio" id="slide1" class="carousel-selector" name="carousel-selector" />
+			<input type="radio" id="slide2" class="carousel-selector" name="carousel-selector" checked="checked" />
+			<input type="radio" id="slide3" class="carousel-selector" name="carousel-selector" />
+
+			<ul class="carousel-items">
+				<li class="carousel-item"><img src="images/1.jpg"></li>
+				<li class="carousel-item"><img src="images/2.jpg"></li>
+				<li class="carousel-item"><img src="images/3.jpg"></li>
+			</ul>
+
+			<ul class="carousel-labels">
+				<li class="carousel-label">
+					<label for="slide1"></label>
+				</li>
+				<li class="carousel-label">
+					<label for="slide2"></label>
+				</li>
+				<li class="carousel-label">
+					<label for="slide3"></label>
+				</li>
+			</ul>
+		</div>
+		
+		<br>
+		
+		<div class="container semiopacity-left">
+			<p>Лучшие отели<img class="rightimg" src="images/1.4.jpg" width="250" height="250"></p>
+		</div>
+		<div class="container semiopacity-right">
+			<p>Отличный сервис<img class="leftimg" src="images/1.7.jpg" width="250" height="250"></p>
+		</div>
+		<div class="container semiopacity-left">
+			<p>Сказочные пляжи<img class="rightimg" src="images/1.5.jpg" width="250" height="250"></p>
+		</div>
+		
+		<br>
+		
+		<div class="footer">&copy; Шуманский Дмитрий , 2016</div>
+		
+		<button id="toTop">Наверх</button >
+	</body>
+</html>
